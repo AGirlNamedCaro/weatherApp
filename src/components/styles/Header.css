@@ -1,0 +1,40 @@
+.header {
+  background-color: #E79C4D ;
+  color: white
+}
+
+.nav {
+  display: inline-flex;
+  margin: 1.5em;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.search {
+  display: flex;
+  padding: 1rem;
+}
+
+  input {
+  border: none;
+  border-bottom: solid thin black;
+  background: transparent;
+  padding: 0.7rem;
+
+}
+  ::placeholder {
+  color: white;
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+.button {
+  padding: 0.5rem;
+}
+
+
